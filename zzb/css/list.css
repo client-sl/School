@@ -1,0 +1,145 @@
+body {
+	background: #fff;
+}
+
+.active {
+	display: block;
+}
+.container {
+	margin: 0px auto; width: 1200px; 
+}
+.container::after {
+	clear: both; display: block; content: "";
+}
+
+.main {
+	margin-top: 20px; margin-bottom: 20px;
+}
+.aside {
+	background: rgb(245, 245, 245); width: 262px; position: relative; min-height: 500px;
+}
+.aside p {
+	background: rgb(176, 0, 0); height: 60px; text-align: center; color: #fff; line-height: 50px; font-size: 20px; margin-top: 0px; border-top-color: rgb(176, 0, 0); border-top-width: 10px; border-top-style: solid;font-weight:bold;
+}
+.aside ul {
+	padding-bottom: 20px;
+}
+.aside ul li {
+	width: 262px;
+	height: 50px; text-align: center; border-bottom-color: rgb(192, 192, 192); border-bottom-width: 1px; border-bottom-style: solid; position: relative; 
+}
+.aside ul li a {
+	height: 50px; line-height: 50px; font-size: 16px; box-sizing: border-box; display: block; width: 262px;
+}
+.aside ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.aside ul li:hover{
+	/*background: url("../images/triggle.png") no-repeat right 80px center ;*/
+	background: #be0000;
+}
+
+.on {
+	color: #fff;
+	background: #be0000;	
+}
+
+
+
+.detail {
+	background: rgb(255, 255, 255); width: 938px; min-height: 700px; box-sizing: border-box;
+}
+.detail .position {
+	margin: 0px 30px; height: 50px; line-height: 50px; border-bottom-color: rgb(207, 207, 207); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.detail .position h3 img{
+	margin-top: 15px; float: left;
+}
+.detail .position h3 span {
+	color: rgb(176, 0, 0); font-size: 16px; font-weight: 500; margin-left: 10px; line-height: 30px; float: left; margin-top: 10px; font-weight:bold;
+}
+.detail .position p {
+	color: rgb(102, 102, 102);
+}
+.detail .position a {
+	color: rgb(102, 102, 102);
+}
+.detail .position a:hover {
+	color: rgb(176, 0, 0);
+}
+.detail > ul {
+	margin: 15px 30px;
+}
+.detail > ul > li {
+	height: 45px; line-height: 45px; padding-left: 30px; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: dotted; position: relative;
+}
+.detail > ul > li i {
+	background: url("../images/triggle.png") no-repeat center; left: 0px; top: 18px; width: 14px; height: 8px; position: absolute;
+}
+.detail > ul > li a {
+	width: 85%; overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.detail > ul > li span {
+	right: 3px; color: rgb(102, 102, 102); position: absolute;
+}
+.detail .content {
+	padding: 20px 30px; text-indent: 2em;
+}
+.detail.wd {
+	width: 100%; border-top-color: rgb(176, 0, 0); border-top-width: 5px; border-top-style: solid;
+}
+.caption {
+	text-align: center;
+}
+.caption h3 {
+	margin: 20px 0px 10px; line-height: 40px; font-size: 22px; font-weight: 500;
+}
+.caption div span {
+	margin: 0px 10px; color: rgb(102, 102, 102); font-size: 14px;
+}
+.content p {
+	margin: 15px 0px; line-height: 30px; text-indent: 2em; font-size: 16px;
+}
+.content p.img {
+	text-align: center;
+}
+.imgList {
+	margin: 15px 30px;
+}
+.imgList ul li {
+	margin: 20px 0px; width: 33%; text-align: center; float: left;
+}
+.imgList ul li .img {
+	height: 200px;
+}
+.imgList ul li .img img {
+	border-radius: 50%; border: 5px solid rgb(227, 227, 227); transition:0.3s; border-image: none; width: 200px; height: 200px;
+}
+.imgList ul li .img:hover img {
+	border: 5px solid rgb(176, 0, 0); border-image: none; transform: scale(1.1);
+}
+.imgList ul li > a {
+	margin: 20px 0px; padding: 5px 0px; width: 60%; overflow: hidden; border-top-color: rgb(163, 163, 163); border-bottom-color: rgb(163, 163, 163); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.imgList ul li > a:hover {
+	color: rgb(176, 0, 0);
+}
+
+.detail .count{ text-align: center; margin-top: 20px; }
+.count .count_title{ width: 160px; height: 111px; margin: auto; }
+.count .count_title > div{ width: 74px; height: 74px; background: #be0000; border-radius: 50%; margin-left: 43px;}
+.count .count_title > div img{ margin: 18px 22px; }
+.count .count_title h3{ margin-top:10px; font-size: 30px; color: #be0000;  }
+
+.count .count_key form{margin-top: 57px; margin-bottom: 28px;}
+.count .count_key form label{ width: 418x; height: 40px; font-size: 16px;}
+.count .count_key form .money{ width: 320px; height: 28px; line-height: 28px; border-radius: 5px; color: #9c9c9c; border: 1px solid #0c0c0c; text-indent: 14px;margin-bottom:5px;}
+.count .count_key .btn{ margin-top: 43px; height: 43px; width: 160px; line-height: 43px; background: #be0000; color: #fff; outline: none; border: none; border-radius: 5px;  font-size: 18px;font-family:"微软雅黑"}
+.count .count_key .result{ width: 418px; height: auto; line-height: 35px; background: #dadada; margin: auto; font-size: 18px;}
+
+.count .count_key .result span{ color:#be0000;  }
+
+.count .count_info{ text-align: left;  width: 800px; margin: 20px auto;}
+.count .count_info h3{line-height: 50px; font-size: 20px; font-weight: normal;}
+.count .count_info p{line-height: 25px; font-size: 14px;}

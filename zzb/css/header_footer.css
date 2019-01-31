@@ -1,0 +1,232 @@
+body {
+	font: 14px/normal "microsoft yahei", Arial, Helvetica, sans-serif; margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+form{ 
+	margin: 0px; padding: 0px; 
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+a {
+	color: rgb(51, 51, 51); font-size: 14px; text-decoration: none;
+}
+a:hover {
+	color: rgb(176, 0, 0); cursor: pointer;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+input{ 
+	outline: none; 
+}
+.content{
+	width: 1200px;  margin: 0 auto; 
+	/*border-left: 1px solid red;border-right: 1px solid red;*/
+}
+
+.top {
+	height: 40px; line-height: 40px; border-bottom-color:#3f3f3f; border-bottom-width: 1px; border-bottom-style: solid; width: 100%; background: #fff;
+}
+
+/*logo*/
+.logo_bar {
+	height: 132px; background: #fff;
+}
+.logo_pic {
+	padding: 27px 0px; width: 740px; height: 78px;
+}
+.logo_pic img{ 
+	float: left; 
+}
+
+/*搜索框*/
+.search {
+	width: 243px; height: 130px; 
+}
+.search form {
+	height: 27px; margin-top: 30px; margin-left: 51px; position: relative;
+}
+.search form input[type='text'] { 
+    border: 1px solid #555; border-radius: 20px; height: 27px; width: 192px; position: absolute; right: 0; text-indent: 10px;
+}
+.search form input[type='submit'] {
+	position: absolute; left: 162px; top: 4px; background: url('../images/search_btn.png'); outline: none; border: none; width: 19px;
+}
+.search form input::-webkit-input-placeholder { /* WebKit browsers */ 
+    color: #bcbcbc;
+}
+.search form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #bcbcbc;
+ }
+.search form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #bcbcbc;
+}
+.search form input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #bcbcbc;
+ }
+
+/*导航*/
+.nav {
+	width: 100%; height: 50px; line-height: 50px; background: #be0000; margin-bottom: 2px;
+}
+.nav a { 
+	font-size: 16px; color: #fff;
+}
+.nav > ul > li {
+	height: 50px; text-align: center; line-height: 50px;  float: left; display: block; position: relative; z-index: 999; width: 120px;
+}
+.nav > ul > li ul {
+	background: rgb(209, 165, 68); left: 0px; top: 50px; display: none; position: absolute; opacity: 0.8; width: 120px;
+}
+.nav > ul > li:hover {
+	background: rgb(176, 0, 0);
+}
+.nav > ul > li:hover a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.nav > ul > li:hover ul {
+	display: block;
+}
+.nav ul li ul li {
+	width: 120px; height: 40px; text-align: center; line-height: 40px; border-bottom-color: rgb(218, 218, 218); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.nav ul li ul li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.nav > ul > li ul li a {
+	color: rgb(255, 255, 255);
+}
+.nav > ul > li ul li a:hover {
+	text-decoration: none;
+}
+.nav > ul > li ul li:hover {
+	background: rgb(176, 0, 0);
+}
+.non{color: rgb(255, 255, 255);background: rgb(176, 0, 0);}
+
+
+
+/*slide*/
+.slider{
+    width: 100%; 
+    margin:0 auto;
+}
+.slideBox{
+    width:100%;
+    height: 496px;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+}
+.slideBox .hd{
+    position:absolute;
+    width: 100px;
+    bottom:10px;
+    left:46%;
+    z-index:1;
+}
+.slideBox .hd ul{
+    width: 100%;
+    text-align: center;
+}
+.slideBox .hd ul li{
+	float:left;
+	display: block;
+    margin:0 3px;
+    width:17px;
+    height:17px;
+    background:#fff;
+    cursor:pointer;
+    border-radius: 50%;
+}
+.slideBox .hd ul li.on{
+    background:#9a0000;
+}
+.slideBox .bd{
+    
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+.slideBox .bd li{
+    width: 1920px;
+    height: 496px;
+    float: left;
+    zoom:1;
+    vertical-align:middle;
+}
+
+.slideBox .bd img{
+    display:inline-block;
+    width: 1920px;
+    height: 496px;
+}
+
+
+
+.line{ 
+	height: 20px; width: 100%; clear:both;
+}
+
+
+.footer {
+	margin: 0px auto; min-width: 1200px; max-width: 1920px;
+}
+.footer {
+	background: url("../images/footer.jpg") no-repeat center; height: 200px; color: #3d3d3d;  
+}
+.footer a {
+	color: rgb(255, 255, 255);
+}
+
+.footer .address {
+	width: 1200px; line-height: 30px; margin: 0 auto;
+}
+.footer .addressInfo {
+	 padding-top: 72px; padding-left: 20px;
+}
+.footer .codePic {
+	width: 165px; text-align: center; margin-right: 20px; display: block;
+}

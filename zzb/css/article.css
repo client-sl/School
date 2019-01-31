@@ -1,0 +1,51 @@
+body{
+	background: #eee;
+}
+
+.active {
+	display: block;
+}
+.container {
+	margin: 0px auto; width: 1200px; 
+}
+.container::after {
+	clear: both; display: block; content: "";
+}
+
+.main {
+	margin: 30px;
+}
+
+.detail {
+	background: rgb(255, 255, 255); width: 938px; min-height: 700px; box-sizing: border-box;
+}
+
+.detail.wd {
+	width: 100%; border-top-color: rgb(176, 0, 0); border-top-width: 5px; border-top-style: solid;
+}
+.caption {
+	text-align: center;
+}
+.caption h3 {
+	margin: 20px 0px 10px; line-height: 40px; font-size: 22px; font-weight: 500;
+}
+.caption div span {
+	margin: 0px 10px; color: rgb(102, 102, 102); font-size: 14px;
+}
+
+.detail .content {
+	padding: 20px 50px; text-indent: 0em; width: 1100px;
+}
+.detail .content p{line-height:2.3em!important;}
+/* .detail .content p {
+	margin: 15px 0px; line-height: 30px; text-indent: 2em; font-size: 16px; text-align: left; 
+}
+.detail .content img{
+	margin-top: 20px;
+}
+.detail .content span{
+	display: block; line-height: 30px; font-size: 14px;font-family: å®‹ä½“; margin-top: 10px;
+}
+ */
+
+
